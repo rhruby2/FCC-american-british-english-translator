@@ -7,7 +7,7 @@ suite('Unit Tests', () => {
   // AMERICAN TO BRITISH //
   test('Translate Mangoes are my favorite fruit. to British English',() => {
     let result = "";
-    assert.equal(result,"Mangoes are my favourite fruit.", "result should match solution");
+    assert.equal(result,"Mangoes are my favourite fruit.", "result should match solution. favorite should become favourite uncapitalized.");
   })
   test('Translate I ate yogurt for breakfast. to British English',() => {
     let result = "";
